@@ -7,7 +7,6 @@
 class SoundButton: public QPushButton {
     Q_OBJECT
 public:
-    SoundButton() = default;
     SoundButton(QWidget* parent = nullptr);
     void paintEvent(QPaintEvent* e) override;
     void keyPressEvent(QKeyEvent* e) override;
